@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularz</title>
+</head>
+<body>
+    <form action="mailto:maciej.szczykowski@gmail.com">
+        Imię: <input type="text" name="imie"> <br> <!-- oddzielamy brejkiem z lenistwa :)-->
+        Nazwisko: <input type="text" name="nazwisko"> <br> <!-- id kasujemy bo tylko do JS potrzebne-->
+        Email: <input type="text" name="email"> <br>
+
+        Płeć: Mężczyzna: <input type="radio" name="plec" value="M">
+        Kobieta: <input type="radio" name="plec" value="K"> <br>
+        <textarea name="tresc" cols="30" rows="5"></textarea> <!--cols, ilosc literek--> <br>
+        Wiek: 
+        <select name="wiek" >
+            <option value="mn18"> mniej niż 18</option>
+            <option value="mn30"> mniej niż 30</option>
+            <option value="w30"> więcej niż 18</option>
+        </select> <br>
+
+        <input type="reset" value="Wyczyść Formularz">
+        <input type="submit" value="Wyślij">
+        
+    </form>
+</body>
+</html>

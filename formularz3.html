@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularz</title>
+</head>
+<body>
+    <form action="">
+     <fieldset>
+            <legend>Dane osobowe</legend>
+            <label for="imie">Imię:</label>  
+            <!--LABEL for: kursor po najechaniu na imie przeniesie nas do pola do wpisywania  -->
+            <input type="text" name="imie" id="imie"> <br>
+            <label for="nazwisko">Nazwisko:</label>
+            <input type="text" name="nazwizko" id="nazwisko"> <br>
+            <label for="K">Kobieta</label>
+            <input type="radio" name="plec" value="kobieta"> <br> 
+            <label for="M">Mężczyzna</label>
+            <input type="radio" name="plec" value="mezczyzna"> <br> 
+    </fieldset>
+    <fieldset>
+            <legend>Twoje Pytanie</legend>
+            <select name="adresat" >
+
+                <optgroup label="Dział sprzedaży">
+                    <option>Jan Kowalski</option>
+                </optgroup>
+
+                <optgroup label="Serwis">
+                    <option>Anna Nowak</option>
+                    <option>Marta Nowak</option>
+
+                </optgroup>
+
+            </select>
+             <br>
+            <textarea name="opinia" cols="40" rows="5"></textarea> <br>
+
+    </fieldset>
+
+    </form>
+</body>
+</html>
